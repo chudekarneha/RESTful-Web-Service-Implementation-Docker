@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS customer (customerId VARCHAR(10) NOT NULL, firstName VARCHAR(50) NOT NULL, lastName VARCHAR(50) NOT NULL, phone VARCHAR(20), email VARCHAR(50), address VARCHAR(50), PRIMARY KEY (customerId));
+CREATE TABLE IF NOT EXISTS orders (orderId VARCHAR(10) not null, order_amount VARCHAR(10), payment_type VARCHAR(20), order_details VARCHAR(50), customerId VARCHAR(10), PRIMARY KEY (orderId), FOREIGN KEY (customerId) REFERENCES customer (customerId) );

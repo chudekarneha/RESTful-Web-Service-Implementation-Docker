@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: nehachudekar
+Build-Jdk: 17
+Implementation-Title: customer-jdbc
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.customerorders
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/customer-jdbc
+Created-By: Maven Integration for Eclipse
+
